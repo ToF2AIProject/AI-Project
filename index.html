@@ -31,8 +31,41 @@
         left: 60%;
     }
 
+    @media (max-width: 500px){
+        br{
+            margin-top: 20px;
+        }
+        label {
+            position: absolute;
+            margin-left: 15px;
+        }
+        select {
+            position: absolute;
+            margin-left: 20px;
+            width: 150px;
+        }
+        #resetBUTTON {
+            position: absolute;
+            margin-left: 30px;
+        }
+        #kjonnTEKST{
+            position: absolute;
+            top: 103%;
+        }
+        br{
+            margin-top: 50px;
+        }
+        select{
+            margin-top: 40px;
+        }
+        #kjonnTEKST {
+            position: absolute;
+            top: 148%;
+            left: 50%;
+        }
+    }
 </style>
-<span id="kjonnTEKST"></span>
+
 <body>
     <form method="get" name="form" action="test.php"> 
         <label>1. How old are you?</label>
@@ -190,6 +223,7 @@
         <button onclick="doMath()">Click here when you are done.</button>
         <button id="resetBUTTON" onclick="resetDoc()">Reset</button>
     </div>
+    <span id="kjonnTEKST"></span>
 </body>
 
 <script>
